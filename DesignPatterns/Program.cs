@@ -1,17 +1,11 @@
-﻿using DesignPatterns.Behavioral.Command;
-using DesignPatterns.Behavioral.Command.Command3;
-using DesignPatterns.Behavioral.Iterator;
-using DesignPatterns.Behavioral.Memento;
-using DesignPatterns.Test.Command2;
-
-namespace DesignPatterns
+﻿namespace DesignPatterns
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Command3Client client = new();
-            
+            DesignPatterns.Behavioral.Observer.Observer1.Clinet client = new();
+
             client.Operate();
 
             Console.Read();
