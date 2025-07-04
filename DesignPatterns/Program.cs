@@ -1,10 +1,12 @@
-﻿namespace DesignPatterns
+﻿using DesignPatterns.Behavioral.Command.Command6;
+
+namespace DesignPatterns
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            DesignPatterns.Behavioral.Observer.Observer1.Clinet client = new();
+            DesignPatterns.Structural.Composite.Composite2.Client client = new();
 
             client.Operate();
 
