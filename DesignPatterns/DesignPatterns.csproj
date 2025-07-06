@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <Folder Include="Creational\" />
+    <Folder Include="Structural\Façade\" />
   </ItemGroup>
 
 </Project>

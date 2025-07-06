@@ -4,13 +4,11 @@
     {
         static void Main(string[] args)
         {
-            DesignPatterns.Structural.Proxy.Proxy01.Client client = new();
+            DesignPatterns.Structural.Adapter.Adapter02.Client client = new();
 
             client.Operate();
 
             Console.Read();
         }
     }
-
-
 }
